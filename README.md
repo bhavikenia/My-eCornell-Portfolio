@@ -1,11 +1,11 @@
-# 🏡 Airbnb Price Prediction (NYC)
+# Airbnb Price Prediction (NYC)
 
 This project builds a machine learning model to predict Airbnb listing prices in New York City.
 It follows a full ML workflow: manual data preprocessing, exploratory data analysis, and training regression models to understand what factors affect listing prices.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Airbnb NYC listings (`airbnbListingsData.csv`)
 - **Target variable:** `price`
@@ -25,7 +25,7 @@ Text fields like `name`, `description`, and `host_about` were removed to keep th
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 1. **Data exploration & cleaning**
    - Remove rows with missing target (`price`).
@@ -50,7 +50,7 @@ Text fields like `name`, `description`, and `host_about` were removed to keep th
 
 ---
 
-## ✅ Results
+## Results
 
 - The Random Forest model performed better, with lower MAE and RMSE compared to Linear Regression.
 - Scatter plots showed predictions generally aligned with actual prices, though some variance remained, especially for higher-priced listings.
@@ -58,7 +58,7 @@ Text fields like `name`, `description`, and `host_about` were removed to keep th
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 Manually preprocessing the data and training different models helps reveal which features most influence Airbnb prices.
 Further improvements could include:
